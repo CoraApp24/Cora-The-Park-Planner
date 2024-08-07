@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AE86E142C63B53000A95B2D /* Cora_The_Park_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE86E132C63B53000A95B2D /* Cora_The_Park_PlannerApp.swift */; };
+		5AE86E162C63B53000A95B2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE86E152C63B53000A95B2D /* ContentView.swift */; };
+		5AE86E182C63B53200A95B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE86E172C63B53200A95B2D /* Assets.xcassets */; };
+		5AE86E1B2C63B53200A95B2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE86E1A2C63B53200A95B2D /* Preview Assets.xcassets */; };
+		5AE86E252C63B53200A95B2D /* Cora_The_Park_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE86E242C63B53200A95B2D /* Cora_The_Park_PlannerTests.swift */; };
+		5AE86E2F2C63B53200A95B2D /* Cora_The_Park_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE86E2E2C63B53200A95B2D /* Cora_The_Park_PlannerUITests.swift */; };
+		5AE86E312C63B53200A95B2D /* Cora_The_Park_PlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE86E302C63B53200A95B2D /* Cora_The_Park_PlannerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE86E212C63B53200A95B2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE86E082C63B53000A95B2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE86E0F2C63B53000A95B2D;
+			remoteInfo = "Cora The Park Planner";
+		};
+		5AE86E2B2C63B53200A95B2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE86E082C63B53000A95B2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE86E0F2C63B53000A95B2D;
+			remoteInfo = "Cora The Park Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AE86E102C63B53000A95B2D /* Cora The Park Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cora The Park Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE86E132C63B53000A95B2D /* Cora_The_Park_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cora_The_Park_PlannerApp.swift; sourceTree = "<group>"; };
+		5AE86E152C63B53000A95B2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AE86E172C63B53200A95B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AE86E1A2C63B53200A95B2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AE86E202C63B53200A95B2D /* Cora The Park PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cora The Park PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE86E242C63B53200A95B2D /* Cora_The_Park_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cora_The_Park_PlannerTests.swift; sourceTree = "<group>"; };
+		5AE86E2A2C63B53200A95B2D /* Cora The Park PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cora The Park PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE86E2E2C63B53200A95B2D /* Cora_The_Park_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cora_The_Park_PlannerUITests.swift; sourceTree = "<group>"; };
+		5AE86E302C63B53200A95B2D /* Cora_The_Park_PlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cora_The_Park_PlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE86E0D2C63B53000A95B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE86E1D2C63B53200A95B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE86E272C63B53200A95B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE86E072C63B53000A95B2D = {
+			isa = PBXGroup;
+			children = (
+				5AE86E122C63B53000A95B2D /* Cora The Park Planner */,
+				5AE86E232C63B53200A95B2D /* Cora The Park PlannerTests */,
+				5AE86E2D2C63B53200A95B2D /* Cora The Park PlannerUITests */,
+				5AE86E112C63B53000A95B2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE86E112C63B53000A95B2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE86E102C63B53000A95B2D /* Cora The Park Planner.app */,
+				5AE86E202C63B53200A95B2D /* Cora The Park PlannerTests.xctest */,
+				5AE86E2A2C63B53200A95B2D /* Cora The Park PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE86E122C63B53000A95B2D /* Cora The Park Planner */ = {
+			isa = PBXGroup;
+			children = (
+				5AE86E132C63B53000A95B2D /* Cora_The_Park_PlannerApp.swift */,
+				5AE86E152C63B53000A95B2D /* ContentView.swift */,
+				5AE86E172C63B53200A95B2D /* Assets.xcassets */,
+				5AE86E192C63B53200A95B2D /* Preview Content */,
+			);
+			path = "Cora The Park Planner";
+			sourceTree = "<group>";
+		};
+		5AE86E192C63B53200A95B2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AE86E1A2C63B53200A95B2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AE86E232C63B53200A95B2D /* Cora The Park PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE86E242C63B53200A95B2D /* Cora_The_Park_PlannerTests.swift */,
+			);
+			path = "Cora The Park PlannerTests";
+			sourceTree = "<group>";
+		};
+		5AE86E2D2C63B53200A95B2D /* Cora The Park PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE86E2E2C63B53200A95B2D /* Cora_The_Park_PlannerUITests.swift */,
+				5AE86E302C63B53200A95B2D /* Cora_The_Park_PlannerUITestsLaunchTests.swift */,
+			);
+			path = "Cora The Park PlannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE86E0F2C63B53000A95B2D /* Cora The Park Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE86E342C63B53200A95B2D /* Build configuration list for PBXNativeTarget "Cora The Park Planner" */;
+			buildPhases = (
+				5AE86E0C2C63B53000A95B2D /* Sources */,
+				5AE86E0D2C63B53000A95B2D /* Frameworks */,
+				5AE86E0E2C63B53000A95B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cora The Park Planner";
+			productName = "Cora The Park Planner";
+			productReference = 5AE86E102C63B53000A95B2D /* Cora The Park Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AE86E1F2C63B53200A95B2D /* Cora The Park PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE86E372C63B53200A95B2D /* Build configuration list for PBXNativeTarget "Cora The Park PlannerTests" */;
+			buildPhases = (
+				5AE86E1C2C63B53200A95B2D /* Sources */,
+				5AE86E1D2C63B53200A95B2D /* Frameworks */,
+				5AE86E1E2C63B53200A95B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE86E222C63B53200A95B2D /* PBXTargetDependency */,
+			);
+			name = "Cora The Park PlannerTests";
+			productName = "Cora The Park PlannerTests";
+			productReference = 5AE86E202C63B53200A95B2D /* Cora The Park PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AE86E292C63B53200A95B2D /* Cora The Park PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE86E3A2C63B53200A95B2D /* Build configuration list for PBXNativeTarget "Cora The Park PlannerUITests" */;
+			buildPhases = (
+				5AE86E262C63B53200A95B2D /* Sources */,
+				5AE86E272C63B53200A95B2D /* Frameworks */,
+				5AE86E282C63B53200A95B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE86E2C2C63B53200A95B2D /* PBXTargetDependency */,
+			);
+			name = "Cora The Park PlannerUITests";
+			productName = "Cora The Park PlannerUITests";
+			productReference = 5AE86E2A2C63B53200A95B2D /* Cora The Park PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE86E082C63B53000A95B2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5AE86E0F2C63B53000A95B2D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5AE86E1F2C63B53200A95B2D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5AE86E0F2C63B53000A95B2D;
+					};
+					5AE86E292C63B53200A95B2D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5AE86E0F2C63B53000A95B2D;
+					};
+				};
+			};
+			buildConfigurationList = 5AE86E0B2C63B53000A95B2D /* Build configuration list for PBXProject "Cora The Park Planner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AE86E072C63B53000A95B2D;
+			productRefGroup = 5AE86E112C63B53000A95B2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE86E0F2C63B53000A95B2D /* Cora The Park Planner */,
+				5AE86E1F2C63B53200A95B2D /* Cora The Park PlannerTests */,
+				5AE86E292C63B53200A95B2D /* Cora The Park PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE86E0E2C63B53000A95B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE86E1B2C63B53200A95B2D /* Preview Assets.xcassets in Resources */,
+				5AE86E182C63B53200A95B2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE86E1E2C63B53200A95B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE86E282C63B53200A95B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE86E0C2C63B53000A95B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE86E162C63B53000A95B2D /* ContentView.swift in Sources */,
+				5AE86E142C63B53000A95B2D /* Cora_The_Park_PlannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE86E1C2C63B53200A95B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE86E252C63B53200A95B2D /* Cora_The_Park_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE86E262C63B53200A95B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE86E312C63B53200A95B2D /* Cora_The_Park_PlannerUITestsLaunchTests.swift in Sources */,
+				5AE86E2F2C63B53200A95B2D /* Cora_The_Park_PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AE86E222C63B53200A95B2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE86E0F2C63B53000A95B2D /* Cora The Park Planner */;
+			targetProxy = 5AE86E212C63B53200A95B2D /* PBXContainerItemProxy */;
+		};
+		5AE86E2C2C63B53200A95B2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE86E0F2C63B53000A95B2D /* Cora The Park Planner */;
+			targetProxy = 5AE86E2B2C63B53200A95B2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AE86E322C63B53200A95B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AE86E332C63B53200A95B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE86E352C63B53200A95B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cora The Park Planner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isaeju.Cora-The-Park-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AE86E362C63B53200A95B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cora The Park Planner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isaeju.Cora-The-Park-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AE86E382C63B53200A95B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isaeju.Cora-The-Park-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cora The Park Planner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cora The Park Planner";
+			};
+			name = Debug;
+		};
+		5AE86E392C63B53200A95B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isaeju.Cora-The-Park-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cora The Park Planner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cora The Park Planner";
+			};
+			name = Release;
+		};
+		5AE86E3B2C63B53200A95B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isaeju.Cora-The-Park-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cora The Park Planner";
+			};
+			name = Debug;
+		};
+		5AE86E3C2C63B53200A95B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isaeju.Cora-The-Park-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cora The Park Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE86E0B2C63B53000A95B2D /* Build configuration list for PBXProject "Cora The Park Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE86E322C63B53200A95B2D /* Debug */,
+				5AE86E332C63B53200A95B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE86E342C63B53200A95B2D /* Build configuration list for PBXNativeTarget "Cora The Park Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE86E352C63B53200A95B2D /* Debug */,
+				5AE86E362C63B53200A95B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE86E372C63B53200A95B2D /* Build configuration list for PBXNativeTarget "Cora The Park PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE86E382C63B53200A95B2D /* Debug */,
+				5AE86E392C63B53200A95B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE86E3A2C63B53200A95B2D /* Build configuration list for PBXNativeTarget "Cora The Park PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE86E3B2C63B53200A95B2D /* Debug */,
+				5AE86E3C2C63B53200A95B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AE86E082C63B53000A95B2D /* Project object */;
+}
